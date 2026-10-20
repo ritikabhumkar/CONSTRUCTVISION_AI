@@ -244,7 +244,7 @@ def load_historical_logs():
             "Date": date(2026, 8, 22),
             "Project": f"{gps_info.get('site_code','CV-RES-01')}: {gps_info.get('label','Navi Peth Center')}",
             "Inspection_Type": "Model & Sensor Calibration Audit",
-            "Inspector": "Er. Ritika Bhumkar & Er. Laiba Mulani",
+            "Inspector": "Er. Ritika Bhumkar & Er. Praniti Sametta & Er. Prachi Alagi",
             "Defects_Found": 0,
             "AI_Confidence": 0.99,
             "Status": "Safe",
@@ -286,7 +286,7 @@ all_logs.append({
     "Date": datetime.now().date(),
     "Project": f"{gps_info.get('site_code','CV-SITE')}: {gps_info.get('label','Solapur Site')}",
     "Inspection_Type": "Live Computer Vision AI & Multi-Module Audit",
-    "Inspector": "Er. Ritika Bhumkar & Er. Laiba Mulani",
+    "Inspector": "Er. Ritika Bhumkar & Er. Praniti Sametta & Er. Prachi Alagi",
     "Defects_Found": len(defects_list),
     "AI_Confidence": 0.984,
     "Status": "Critical Alert" if "CRITICAL" in overall_verdict.upper() else "Safe",
@@ -336,7 +336,7 @@ st.markdown(f"""
     <div style="text-align: right;">
         <span class="badge-blue">SYSTEM ARCHITECTS & LEAD DEVELOPERS</span>
         <p style="margin: 4px 0 0 0; font-size: 0.95rem; font-weight: 600; color: #FFFFFF;">
-            Er. Ritika Bhumkar & Er. Laiba Mulani
+            Er. Ritika Bhumkar & Er. Praniti Sametta & Er. Prachi Alagi
         </p>
     </div>
 </div>
@@ -431,7 +431,7 @@ with col_p1:
         site_gps_text = st.text_input("GIS Coordinates / Route:", f"{gps_info.get('road','Rupa Bhavani Road')} ({gps_info.get('lat',17.6599):.4f}° N, {gps_info.get('lon',75.9064):.4f}° E)")
         lead_devs = st.selectbox(
             "Lead Structural Engineers:",
-            ["Er. Ritika Bhumkar & Er. Laiba Mulani", "Er. Ritika Bhumkar (Lead Dev)", "Er. Laiba Mulani (Lead Dev)"],
+            ["Er. Ritika Bhumkar ,Er. Praniti Sametta & Er. Prachi Alagi", "Er. Ritika Bhumkar (Lead Dev)", "Er. Praniti Sametta (Lead Dev)", "Er. Prachi Alagi (AI Integration Specialist)"],
             index=0
         )
         client_corp = st.text_input("Client / Contractor Organization:", "Solapur Smart Infrastructure Ltd")
@@ -691,7 +691,8 @@ Governing Code   : IS 456:2000 / Eurocode 2 / DSR 2026 Compliant
 --------------------------------------------------------------------------------
 SYSTEM ARCHITECTS & LEAD DEVELOPERS:
   • Er. Ritika Bhumkar (Lead Civil & AI Engineer)
-  • Er. Laiba Mulani (Structural AI Researcher)
+  • Er. Praniti Sametta (Structural AI Researcher)
+  • Er. Prachi Alagi (AI Integration Specialist)
 ================================================================================"""
 
 with col_dl1:
@@ -751,6 +752,6 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:16px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI CENTRAL REPORT HUB</b> | Multi-Module Quality Assurance System<br>
-    Developed by <b>Er. Ritika Bhumkar</b> & <b>Er. Laiba Mulani</b> | Department of Civil Engineering © 2026
+    Developed by <b>Er. Ritika Bhumkar</b> , <b>Er. Praniti Sametta & Er. Prachi Alagi</b> | Department of Civil Engineering © 2026
 </div>
 """, unsafe_allow_html=True)

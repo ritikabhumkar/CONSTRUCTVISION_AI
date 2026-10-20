@@ -411,6 +411,6 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:12px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI INSPECTION ENGINE</b> | Structural Surface Anomaly Classifier<br>
-    Developed by <b>Ritika Bhumkar</b> & <b>Laiba Mulani</b> | Department of Civil Engineering © 2026
+    Developed by <b>Ritika Bhumkar</b> , <b>Praniti Sametta & Prachi Alagi</b> | Department of Civil Engineering © 2026
 </div>
 """, unsafe_allow_html=True)

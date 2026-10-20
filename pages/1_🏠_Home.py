@@ -720,7 +720,7 @@ st.divider()
 st.markdown(
     """
 <div style="text-align:center; padding:12px; color:#64748B; font-size:13px;">
-    <b>CONSTRUCTVISION AI MASTER SUITE</b> | Developed by <b>Ritika Bhumkar & Laiba Mulani</b> | Civil Engineering Department Project © 2026
+    <b>CONSTRUCTVISION AI MASTER SUITE</b> | Developed by <b>Ritika Bhumkar ,Praniti Sametta & Prachi Alagi</b> | Civil Engineering Department Project © 2026
 </div>
 """,
     unsafe_allow_html=True,

@@ -645,7 +645,7 @@ st.write("")
 st.divider()
 st.markdown("""
 <div style="text-align:center; padding:15px; color:#64748B; font-size:13px;">
-    <b>CONSTRUCTVISION AI</b> | Designed & Developed by <b>Ritika Bhumkar</b> & <b>Laiba Mulani</b><br>
+    <b>CONSTRUCTVISION AI</b> | Designed & Developed by <b>Ritika Bhumkar </b>, <b>Praniti Sametta</b> & <b>Prachi Alagi</b><br>
     Department of Civil Engineering Internship Project © 2026
 </div>
 """, unsafe_allow_html=True)

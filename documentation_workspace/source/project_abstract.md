@@ -1,22 +1,24 @@
+11
+
 # CHATAKE INNOWORKS PVT. LTD.
 
 ## MINDFORGEAI INTERNSHIP PROGRAM
 
-**Date:** August 2026  
+**Date:** August 2026
 **Document:** Project Abstract and Outline
 
 # CONSTRUCTVISION AI
 
 ## Smart Residential Construction Inspection and Site Intelligence System
 
-| Particular | Details |
-| --- | --- |
-| Course title | Engineering Internship Project |
-| Course number | INT-2026-01 |
-| Students | Ritika Bhumkar / Laiba Mulani |
-| Student IDs | 2026CE001 / 2026CE002 |
-| Degree programme | Diploma in Civil Engineering |
-| Research area | Artificial Intelligence, Computer Vision and Civil Infrastructure Inspection |
+| Particular             | Details                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------ |
+| Course title           | Engineering Internship Project                                                 |
+| Course number          | INT-2026-01                                                                    |
+| Students               | Ritika Bhumkar / Laiba Mulani                                                  |
+| Student IDs            | 2026CE001 / 2026CE002                                                          |
+| Degree programme       | Diploma in Civil Engineering                                                   |
+| Research area          | Artificial Intelligence, Computer Vision and Civil Infrastructure Inspection   |
 | Project carried out at | Chatake Innoworks Pvt. Ltd., MindForgeAI Division, Solapur, Maharashtra, India |
 
 ---
@@ -92,12 +94,12 @@ The project focuses on an AI-assisted civil-infrastructure inspection workflow f
 
 ## 5. Plan of Work
 
-| Phase | Duration | Main activities |
-| --- | --- | --- |
-| Phase 1 | Week 1 | Requirement analysis, literature review, project abstract, environment setup and repository review. |
-| Phase 2 | Week 2 | Image-workflow development, parameterised twin development, data/contract design and initial interface implementation. |
-| Phase 3 | Week 3 | Screening and cost workflow integration, dashboard/report development and feature testing. |
-| Phase 4 | Week 4 | Documentation, verification of implemented/proposed claims, presentation preparation and prototype demonstration. |
+| Phase   | Duration | Main activities                                                                                                        |
+| ------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Phase 1 | Week 1   | Requirement analysis, literature review, project abstract, environment setup and repository review.                    |
+| Phase 2 | Week 2   | Image-workflow development, parameterised twin development, data/contract design and initial interface implementation. |
+| Phase 3 | Week 3   | Screening and cost workflow integration, dashboard/report development and feature testing.                             |
+| Phase 4 | Week 4   | Documentation, verification of implemented/proposed claims, presentation preparation and prototype demonstration.      |
 
 ## 6. Literature References
 
@@ -110,13 +112,13 @@ The project focuses on an AI-assisted civil-infrastructure inspection workflow f
 
 ## 7. Particulars of the Supervisor
 
-| Particular | Details |
-| --- | --- |
-| Name | Ms. Swati P. Maniyal |
-| Qualification | M.TECH, Structural Engineering |
-| Designation | College Guide |
-| Industry guide | Mr. Akash S. Chatake, M.TECH, AIML, BITS Pilani |
-| Organisation | Chatake Innoworks Pvt. Ltd., MindForgeAI Division |
+| Particular     | Details                                           |
+| -------------- | ------------------------------------------------- |
+| Name           | Ms. Swati P. Maniyal                              |
+| Qualification  | M.TECH, Structural Engineering                    |
+| Designation    | College Guide                                     |
+| Industry guide | Mr. Akash S. Chatake, M.TECH, AIML, BITS Pilani   |
+| Organisation   | Chatake Innoworks Pvt. Ltd., MindForgeAI Division |
 
 ## 8. Remarks of the Supervisor
 
@@ -129,5 +131,5 @@ The project focuses on an AI-assisted civil-infrastructure inspection workflow f
 ................................................................................................................................
 
 | Date of review | Student signature | Supervisor signature |
-| --- | --- | --- |
-|  |  |  |
+| -------------- | ----------------- | -------------------- |
+|                |                   |                      |

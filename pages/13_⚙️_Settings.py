@@ -420,7 +420,7 @@ with tab_backup:
         "governing_code": st.session_state.governing_code,
         "strain_threshold_limit": st.session_state.strain_threshold_limit,
         "gst_tax_rate": st.session_state.gst_tax_rate,
-        "lead_engineers": ["Er. Ritika Bhumkar", "Er. Laiba Mulani"]
+        "lead_engineers": ["Er. Ritika Bhumkar", "Er. Praniti Sametta", "Er. Prachi Alagi"]
     }
 
     with col_b1:
@@ -455,6 +455,6 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:16px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI GLOBAL SETTINGS & CALIBRATION CONSOLE</b><br>
-    Developed by <b>Er. Ritika Bhumkar</b> & <b>Er. Laiba Mulani</b> | Department of Civil Engineering © 2026
+    Developed by <b>Er. Ritika Bhumkar</b> , <b>Er. Praniti Sametta & Er. Prachi Alagi</b> | Department of Civil Engineering © 2026
 </div>
 """, unsafe_allow_html=True)

@@ -130,7 +130,7 @@ st.markdown(f"""
             <span style="font-weight:700; font-size:16px; margin-left:10px;">IS Code Compliant Experimental Simulator</span>
         </div>
         <div style="font-size:13px; color:#94A3B8;">
-            <b>Lead Developers:</b> <span class="accent-cyan">Er. Ritika Bhumkar</span> & <span class="accent-orange">Er. Laiba Mulani</span> | 
+            <b>Lead Developers:</b> <span class="accent-cyan">Er. Ritika Bhumkar</span> ,Er. Praniti Sametta & Er. Prachi Alagi</span> | 
             <b>Status:</b> <span style="color:#10B981; font-weight:bold;">LAB READY</span>
         </div>
     </div>
@@ -692,6 +692,8 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:12px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI VIRTUAL LAB ENGINE</b> | IS & ASTM Civil Engineering Testing Simulators<br>
-    Developed by <b>Er. Ritika Bhumkar</b> & <b>Er. Laiba Mulani</b> | Department of Civil Engineering © 2026
+    <div>
+  Developed by <b>Er. Ritika Bhumkar</b>, <b>Praniti Sametta</b> &amp; <b>Prachi Alagi</b>
+  | Department of Civil Engineering &copy; 2026
 </div>
 """, unsafe_allow_html=True)

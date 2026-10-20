@@ -432,6 +432,6 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:12px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI GIS HUB</b> | Solapur Geographical Site Command System<br>
-    Developed by <b>Ritika Bhumkar</b> & <b>Laiba Mulani</b> | Department of Civil Engineering © 2026
+    Developed by <b>Ritika Bhumkar</b> , <b>Praniti Sametta & Prachi Alagi</b> | Department of Civil Engineering © 2026
 </div>
 """, unsafe_allow_html=True)

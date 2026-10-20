@@ -122,7 +122,7 @@ def load_historical_data():
             "Project": "CV-RES-01: Navi Peth Commercial Center",
             "Inspection_Type": "Structural Integrity & Rebar Scan",
             "Inspector": "Er. Ritika Bhumkar (Lead Dev)",
-            "Defects_Found": 2,
+            "Defects_Found": 3,
             "AI_Confidence": 0.96,
             "Status": "Review Required",
             "Severity": "Medium",
@@ -134,7 +134,7 @@ def load_historical_data():
             "Date": date(2026, 8, 14),
             "Project": "CV-FLY-03: Saat Rasta Traffic Flyover",
             "Inspection_Type": "Concrete Deck Shear & Crack Scan",
-            "Inspector": "Er. Laiba Mulani (Lead Dev)",
+            "Inspector": "Er. Praniti Sametta (Lead Dev)",
             "Defects_Found": 4,
             "AI_Confidence": 0.94,
             "Status": "Critical Alert",
@@ -183,7 +183,7 @@ if session_records:
             "Date": datetime.now().date(),
             "Project": f"{r.get('site_code','CV-SITE')}: {r.get('location','Solapur Field Site')}",
             "Inspection_Type": "Live Computer Vision AI Audit",
-            "Inspector": "Er. Ritika Bhumkar & Er. Laiba Mulani",
+            "Inspector": "Er. Ritika Bhumkar & Er. Praniti Sametta & Er. Prachi Alagi",
             "Defects_Found": r.get("total_defects", 0),
             "AI_Confidence": 0.96,
             "Status": "Critical Alert" if "CRITICAL" in str(r.get("verdict","")).upper() else ("Review Required" if "ACTION" in str(r.get("verdict","")).upper() else "Safe"),
@@ -267,7 +267,7 @@ if show_origin_story:
             </div>
         </div>
         <div style="margin-top:14px; font-size:13px; color:#CBD5E1; border-top:1px solid rgba(255,255,255,0.08); padding-top:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
-            <span><b>Lead Developers & System Architects:</b> <span class="accent-cyan">Er. Ritika Bhumkar</span> & <span class="accent-orange">Er. Laiba Mulani</span></span>
+            <span><b>Lead Developers & System Architects:</b> <span class="accent-cyan">Er. Ritika Bhumkar</span> & <span class="accent-orange">Er. Praniti Sametta & Er. Prachi Alagi</span></span>
             <span style="color:#94A3B8;">Department of Civil Engineering © 2026</span>
         </div>
     </div>
@@ -540,10 +540,11 @@ Safe Sites     : {safe_count}
 Review Sites   : {review_count}
 Critical Alerts: {alert_count}
 --------------------------------------------------------------------------------
-GOVERNING CODES: IS 456:2000 / IS 10262 / Eurocode 2 Compliant
+GOVERNING CODES: IS 456:2000 / IS 10262 / Eurocode 3 ompliant
 SYSTEM ARCHITECTS & LEAD DEVELOPERS:
   • Er. Ritika Bhumkar (Lead Civil & AI Engineer)
-  • Er. Laiba Mulani (Structural AI Researcher)
+  • Er. Praniti Sametta (Structural AI Researcher)
+  • Er. Prachi Alagi (AI Integration Specialist)
 
 ORIGIN MOTIVATION SUMMARY:
 Created to modernize manual civil engineering walkthroughs with sub-pixel AI 
@@ -566,6 +567,6 @@ st.divider()
 st.markdown("""
 <div style="text-align:center; padding:12px; color:#64748B; font-size:13px;">
     <b>CONSTRUCTVISION AI HISTORICAL AUDIT HUB</b> | Centralized Civil Inspection Engine<br>
-    Developed by <b>Er. Ritika Bhumkar</b> & <b>Er. Laiba Mulani</b> | Department of Civil Engineering © 2026
+    Developed by <b>Er. Ritika Bhumkar</b> , <b>Er. Praniti Sametta & Er. Prachi Alagi</b> | Department of Civil Engineering © 2026
 </div>
 """, unsafe_allow_html=True)
